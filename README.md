@@ -3,7 +3,7 @@ Minitest Matcher Library
 
 The goal is to be a series of matchers, that bring minitest-matchers into a state where it is as useful as shoulda-matchers, instead of having to build own matchers custom.
 
-For simple validations see (valid_attribute)[https://github.com/bcardarella/valid_attribute]
+For simple validations see [valid_attribute](https://github.com/bcardarella/valid_attribute)t 
 
 Installation
 -----------
