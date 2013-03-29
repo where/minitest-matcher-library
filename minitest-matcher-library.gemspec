@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "lib/minitest-matcher-library.rb",
+    "lib/minitest-matcher-library/test_helpers.rb",
     "minitest-matcher-library.gemspec",
     "test/test_helper.rb",
   ]
