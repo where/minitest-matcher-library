@@ -24,3 +24,5 @@ pkg
 
 
 Gemfile.lock
+test/debug.log
+test/db/test.sqlite3
