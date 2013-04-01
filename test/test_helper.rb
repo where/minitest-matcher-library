@@ -59,3 +59,11 @@ def clean_database!
 end
 
 clean_database!
+
+
+
+require 'minitest-matchers'
+require 'minitest-matcher-library'
+class MiniTest::Unit::TestCase
+  include MinitestMatcherLibrary::TestHelpers
+end
