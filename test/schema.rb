@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20130329023757) do
   create_table "swags", force: true do |t|
     t.string "yolo_id"
     t.string "omg"
+    t.datetime "when_i_have_fomo"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -24,6 +25,7 @@ ActiveRecord::Schema.define(version: 20130329023757) do
 
   create_table "yolos", force: true do |t|
     t.string "fomo"
+    t.datetime "the_day_i_yoloed_all_day"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

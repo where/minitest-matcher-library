@@ -12,6 +12,7 @@ end
 require 'minitest/autorun'
 require 'mocha/setup'
 require 'active_record'
+require 'validates_datetime.rb'
 
 
 # set adapter to use, default is sqlite3
@@ -21,7 +22,6 @@ database_yml = File.expand_path('../database.yml', __FILE__)
 
 if File.exists?(database_yml)
   active_record_configuration = YAML.load_file(database_yml)
-  puts "DB NAME: #{db_name}"
   
   ActiveRecord::Base.configurations = active_record_configuration
   config = ActiveRecord::Base.configurations[db_name]

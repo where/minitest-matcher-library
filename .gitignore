@@ -21,6 +21,7 @@ pkg
 
 # For vim:
 *.swp
+*.swo
 
 
 Gemfile.lock

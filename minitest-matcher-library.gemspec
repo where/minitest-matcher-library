@@ -1,6 +1,9 @@
+$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
+require 'minitest-matcher-library/version'
+
 Gem::Specification.new do |s|
   s.name = "minitest-matcher-library"
-  s.version = "0.0.0"
+  s.version = MinitestMatcherLibrary::VERSION
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ken mazaika"]
@@ -17,8 +20,10 @@ Gem::Specification.new do |s|
     "Rakefile",
     "lib/minitest-matcher-library.rb",
     "lib/minitest-matcher-library/test_helpers.rb",
+    "lib/minitest-matcher-library/date_validation_matcher.rb",
+    "lib/minitest-matcher-library/relationship_matcher.rb",
+    "lib/minitest-matcher-library/version.rb",
     "minitest-matcher-library.gemspec",
-    "test/test_helper.rb",
   ]
   s.homepage = "http://github.com/where/minitest-matcher-library"
   s.require_paths = ["lib"]
